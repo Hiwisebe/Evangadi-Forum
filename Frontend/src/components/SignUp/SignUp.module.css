@@ -1,8 +1,10 @@
 .signup_container {
-  width: 100%;
-  max-width: 400px;
-  margin: 0 auto;
-  padding: 40px;
+  width: 150%;
+  max-width: 420px;
+  /* margin: 0 auto; */
+  margin-left: -50px ;
+ 
+  padding: 30px;
   transition: all 0.5s ease;
   background-color: #fff;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -73,7 +75,7 @@ input:focus {
 
 /* Success Message Styling */
 
-@media screen and (max-width: 768px) {
+@media  (max-width: 768px) {
   .name_fields {
     display: block;
     flex-direction: column;
@@ -83,3 +85,9 @@ input:focus {
   .signup_container {
     height: 100%;
     }}
+  @media (max-width: 480px) {
+  .signup_container {
+    /* padding: 30px; */
+
+  }
+}

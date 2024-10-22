@@ -31,9 +31,15 @@
     display: block;
     width: 85vw;
     height: 70vh;
+    /* margin-left: -100px; */
   }
   .authContent {
     display: block;
     width: 100%;
+  }
+}
+@media (min-width: 780px) {
+  .authContainer {
+    margin-left: -100px;
   }
 }
