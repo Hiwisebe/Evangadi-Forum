@@ -1,11 +1,14 @@
 import axios from "axios";
-
-// const axiosBaseURL = axios.create({
-//   baseURL: "https://evangadi-forum-2-yels.onrender.com" + "/api",
-// });
+// deploy endpoint reference
 const axiosBaseURL = axios.create({
-  baseURL: "http://localhost:5500/api",
+  baseURL: "https://evangadi-forum-tjn0.onrender.com" + "/api",
 });
+// Local endpoint reference
+// const axiosBaseURL = axios.create({
+//   baseURL: "http://localhost:5500/api",
+// });
 export default axiosBaseURL;
-// export const axiosImageURL = "https://evangadi-forum-2-yels.onrender.com";
-export const axiosImageURL = "http://localhost:5500/api";
+// deploy endpoint reference
+export const axiosImageURL = "https://evangadi-forum-tjn0.onrender.com";
+// Local endpoint reference
+// export const axiosImageURL = "http://localhost:5500/api";
